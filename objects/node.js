@@ -12,8 +12,10 @@ const object = {
   keyWithAnonymousFunction: function() {
     return "There is a difference between arrow and anonymous functions, but we won't talk about it here because it's pretty advanced."
   },
-  //Keys can also store numbers, arrays, or even another full object.
+  //Keys can also store numbers, booleans, arrays, or even another full object.
   number: 10.75,
+  boolean: true,
+  boolean2: false,
   array: [
     "This is an array of items!",
     "It's similar to an object,",
@@ -22,4 +24,4 @@ const object = {
   object: {
     key: "And this is another object!"
   }
-}
+};
